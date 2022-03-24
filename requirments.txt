@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 asgiref==3.5.0
 backports.zoneinfo==0.2.1
 Django==4.0.3
@@ -5,3 +6,12 @@ Pillow==9.0.1
 sqlparse==0.4.2
 tzdata==2021.5
 whitenoise==6.0.0
+=======
+asgiref==3.5.0
+backports.zoneinfo==0.2.1
+Django==4.0.3
+Pillow==9.0.1
+sqlparse==0.4.2
+tzdata==2021.5
+whitenoise==6.0.0
+>>>>>>> 02f6840f12b0ca251568a97846f7fc0e4cca4104
