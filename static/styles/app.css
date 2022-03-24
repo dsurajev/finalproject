@@ -173,7 +173,7 @@ img {
   height: 40vh;
   display: flex;
   align-items: center;
-  background-color: var(--color-sub);
+  background-color: red;
 }
 
 .hero-section__box {

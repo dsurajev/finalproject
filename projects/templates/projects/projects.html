@@ -26,7 +26,7 @@
     <!-- Search Result: DevList -->
     <section class="projectsList">
       <div class="container">
-        <div class="grid grid--four">
+        <div class="grid grid--three">
         {% for project in projects %}
           <div class="column">
             <div class="card project">
@@ -35,8 +35,8 @@
                 <div class="card__body">
                   <h3 class="project__title">{{project.title}}</h3>
                   <br>
-                    <button class="btn btn--sub--outline"><a href="{% url 'delete-project' project.id %}">delete</a></button>
-                    <button class="btn btn--sub--outline"><a href="{% url 'update-project' project.id %}">edit</a></button>
+                    <button class=""><a href="{% url 'delete-project' project.id %}">delete</a></button>
+                    <button class=""><a href="{% url 'update-project' project.id %}">edit</a></button>
                   <br>
                   <div class="project__tags">
                     {% for tag in project.tags.all %}  
