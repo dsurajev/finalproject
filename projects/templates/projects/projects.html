@@ -35,6 +35,7 @@
                 <div class="card__body">
                   <h3 class="project__title">{{project.title}}</h3>
                   <br>
+                  <p>{{project.description}}</p>
                     <button class=""><a href="{% url 'delete-project' project.id %}">delete</a></button>
                     <button class=""><a href="{% url 'update-project' project.id %}">edit</a></button>
                   <br>
